@@ -1,11 +1,12 @@
-
+import Home from "./components/Home";
+import Start from "./components/Start";
 
 function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+  if (window.ethereum) {
+    return <Home />;
+  } else {
+    return <Start />
+  }
 }
 
 export default App;
