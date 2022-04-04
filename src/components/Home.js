@@ -2,9 +2,9 @@ import Wallet from './Wallet';
 import { useEffect, useState } from 'react';
 
 import { ethers } from 'ethers';
-import AnVai from '../artifacts/contracts/AnVaiNFT.sol/AnVai.json';
+import AnVai from '../artifacts/contracts/AnvaiNFT.sol/AnVai.json';
 
-const contractAddress = 'YOUR_DEPLOYED_CONTRACT_ADDRESS';
+const contractAddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3';
 
 const provider = new ethers.providers.Web3Provider(window.ethereum);
 
@@ -49,7 +49,7 @@ function Home() {
 }
 
 function NFTImage({ tokenId, getCount }) {
-  const contentId = 'Qmdbpbpy7fA99UkgusTiLhMWzyd3aETeCFrz7NpYaNi6zY';
+  const contentId = 'QmSNYjTAZMnK3qVs1XiA5arYGL9dxJpYCUkVU3M5WzUppd';
   const metadataURI = `${contentId}/${tokenId}.json`;
   const imageURI = `https://gateway.pinata.cloud/ipfs/${contentId}/${tokenId}.png`;
 //   const imageURI = `img/${tokenId}.png`;
