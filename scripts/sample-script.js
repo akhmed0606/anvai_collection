@@ -10,7 +10,6 @@ async function main() {
   console.log("My NFT deployed to:", anvai.address);
 }
 
-
 main()
   .then(() => process.exit(0))
   .catch((error) => {
