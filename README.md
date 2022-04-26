@@ -1,15 +1,11 @@
-# Basic Sample Hardhat Project
+## 💡 About
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+## Web3 Dapp that can mint an unlimited quantity of NFTs.
 
-Try running some of the following tasks:
+## ⚙ Technologies I used
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+- [React](https://create-react-app.dev/)
+- [Hardhat](https://hardhat.org/)
+- [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/wizard)
+- [Alchemy](https://www.alchemy.com/)
+- [Pinata](https://pinata.cloud/)
